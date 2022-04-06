@@ -1,0 +1,40 @@
+1) Javascript fait la difference entre null -> object de type null indiquant une absence deliberer de valeur
+et undefined qui est un object de type undefined definissant une variable non utiliser.
+
+2) let permet de declarer une variable accessible uniquement dans le block de sa creation.
+
+3) Dans la plupart des cas, la valeur de this sera déterminée à partir de la façon dont une fonction est appelée. Il n'est pas possible de lui affecter une valeur lors de l'exécution et sa valeur peut être différente à chaque fois que la fonction est appelée.
+
+4) Le mot-clé super est utilisé afin d'appeler ou d'accéder à des fonctions définies sur l'objet parent.
+
+5) Les fonctions flecher sont toujours anonymes.
+
+6) Le paradigme de programmation est une facon d'approcher la programation informatique et de formuler des solutions.
+-> Le paradigme determine la vue que dispose un dev de l'execution de son programme.
+
+7) Le mode strict de javascript permet de choisir une variante restrictive de Javascript .
+
+-) Le mode strict élimine quelques erreurs silencieuses de JavaScript en les changeant en erreurs explicites (une exception sera levée).
+
+-) Le mode strict corrige les erreurs qui font qu'autrement il est difficile pour les moteurs JavaScript d'effectuer des optimisations.
+
+-) Le code sera donc exécuté plus rapidement en mode strict, sans changer une seule ligne si cela n'est pas nécessaire.
+
+-) Le mode strict interdit les mot-clés susceptibles d'être définis dans les futures versions de ECMAScript.
+
+-) Lors de l'appel à une fonction comme f(), la valeur de this correspondait à l'objet global. En mode strict, cette valeur devient undefined.
+
+8) Lorsqu'on utilise JavaScript, la mémoire est allouée lors de la création des objets puis libérée « automatiquement » lorsque ceux-ci ne sont plus utilisés. Cette libération automatique est appelée garbage collection.
+
+-> Afin de simplifier l'écriture de code, JavaScript alloue la mémoire lors de la déclaration des variables.
+
+9) Un objet String possède une propriété, length, qui indique le nombre d'unités de codage UTF-16 dans la chaîne de caractères.
+
+10) Attention aux tests sur un environnement local : si vous chargez le fichier HTML directement depuis le système de fichier dans le navigateur (en double-cliquant dessus par exemple, ce qui donnera une URL file://), vous rencontrerez des erreurs CORS pour des raisons de sécurité. Il faut donc un serveur local afin de pouvoir tester.
+
+11) XSS est un terme utilisé pour décrire une classe d'attaque qui permet à l'attaquant d'injecter des scripts, exécutés côté-client, au travers du site web pour viser le navigateur web des autres utilisateurs. Comme le code injecté provient du site web le navigateur web le considère comme sûr, il peut de ce fait faire des choses comme transmettre le cookie d'authentification de l'utilisateur à l'attaquant. Une fois que l'attaquant obtient ce cookie il peut se connecter sur le site comme si il était l'utilisateur attaqué et peut faire tout ce que l'utilisateur pourrait faire. En fonction du site sur lequel l'attaque se produit, cela peut inclure l'accès aux détails de carte bancaire, les informations des contacts, la modification du mot de passe, etc.
+
+-) Une vulnérabilité XSS réfléchie se produit quand le contenu de l'utilisateur transmis au serveur est immédiatement retourné, sans avoir été modifié, pour être affiché dans le navigateur.
+
+-) Une vulnérabilité XSS persistante sera celle où le script malicieux est stocké sur le site web puis affiché, sans modification, un peu plus tard par les autres utilisateurs et exécuté à leur insu.
+
